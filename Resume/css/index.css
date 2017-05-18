@@ -1,0 +1,63 @@
+body,html{
+			overflow-x: hidden;
+}
+.top{
+	height: 150px;
+	background: #ffffcc;
+}
+.top .img1{
+	margin-left: 150px;
+	float: left;
+	margin-top: 20px;
+}
+.top .img2{
+	/*float: left;*/
+	margin-left: 500px;
+	display: block;
+}
+.hd{
+	margin-bottom: 0;
+}
+.left,.right{
+	font-size: 100px;
+	
+}
+.rightnav{
+	float: right;
+	width: 300px;
+}
+
+.img1{
+	float: left;
+	padding-top: 20px;
+	transition: all 1s linear ;
+	opacity: 0;
+	transform: rotate(0deg) scale(4);
+}
+
+.img2{
+
+	padding-left:50px ;
+	display: block;
+	float: left;
+	padding-top: 20px;
+	transition: all 1s linear ;
+	opacity: 0;
+	transform: scale(4);
+}
+.head_text{
+	width: 400px;
+	height: 100px;
+	float: left;
+	padding-top: 40px;
+	padding-left: 50px;
+	opacity: 0;
+	transition: 5s;
+}
+.thumbnail{
+	/*background: url(../img/bg.jpg);*/
+	cursor: pointer;
+}
+.thumbnail:nth-of-type(1){
+	margin-top: 30px;
+}
